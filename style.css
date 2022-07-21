@@ -21,7 +21,6 @@
 html{
     font-size: 62.5%;
     overflow-x: hidden;
-    scroll-padding-top: 9rem;
     scroll-behavior: smooth;
 }
 html::-webkit-scrollbar{
@@ -65,7 +64,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:1.5rem 7%;
+    padding: 1.5rem 7%;
     border-bottom: var(--border);
     position: fixed;
     top:0; left: 0; right: 0;
@@ -502,6 +501,9 @@ section{
 .footer .credit span{
     color: rgb(81, 255, 0);
     font-weight: 900;
+}
+.footer .credit i{
+    color: #f00;
 }
 
 
